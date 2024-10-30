@@ -6,10 +6,11 @@ information.
 **Technologies used:**
 
 **Server side language:**
-ASP.NET (C#) 
+ASP.NET (C#), 
 **Database:**
-**MSSQL:**
-Web Service: IIS
+MSSQL,
+**Web Service:**
+IIS
 
 **Database Design**
 
