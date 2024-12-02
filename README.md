@@ -1,6 +1,6 @@
 # TracknSupply
 
-**TracknSupply** is a web-based inventory management system developed that produces products using internal parts and parts bought from suppliers. The application allows users to track parts in stock, monitor manufacturing costs, and manage supplier information (including supplier names, addresses, and prices for purchased parts).
+**TracknSupply** is a web-based inventory management system developed, which is used to monitor the products using internal parts and parts bought from suppliers as well as the parts. The application allows users to track parts in stock, monitor manufacturing costs, and manage supplier information (including supplier names, addresses, and prices for purchased parts).
 
 The system has multiple user levels with different access privileges, ensuring that sensitive data is protected and only authorized users can perform certain actions. This system tracks the company's internal and purchased parts, providing an efficient interface for managing all parts of part procurement and inventory.
 
@@ -70,7 +70,7 @@ Below is the Entity-Relationship Diagram (ERD) for the TracknSupply system:
 
 ### Prerequisites
 
-- **Visual Studio**: Ensure you have Visual Studio 2017 or later installed.
+- **Visual Studio**: Ensure you have Visual Studio 2017.
 - **MySQL Server**: Ensure MySQL Server 2017 is installed and running on your local machine.
 
 ### Setup Instructions
