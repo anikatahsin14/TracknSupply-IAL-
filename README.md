@@ -17,6 +17,12 @@ The system has multiple user levels with different access privileges, ensuring t
 
 ---
 
+Below is the Entity-Relationship Diagram (ERD) for the TracknSupply system:
+
+![ERD Diagram](Images/ERD_of_TracknSupply.png)
+
+---
+
 ## Features
 
 ### 1. **Supplier Management**: 
