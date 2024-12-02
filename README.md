@@ -30,8 +30,6 @@ Below is the Entity-Relationship Diagram (ERD) for the TracknSupply system:
   - Add, edit, and delete suppliers.
   - Track supplier names, addresses, and prices for purchased parts.
   - Assign parts to specific suppliers.
-
-![Supplier Management Module](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/suppliermng.png)
   
 ### 2. **Parts Management**: 
   - Manage internal and purchased parts, including tracking of their names, quantities, and manufacturing costs.
@@ -173,9 +171,45 @@ This project is open-source and available under the MIT License.
 
 ---
 
+
+
 ## Author
 
 **Name**: Anika Tahsin Rithin  
 **Company**: Interstoff Apparels LTD  
 **Email**: anikatahsin1409@gmail.com
+
+---
+
+## Modules
+![Login](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/login.png)
+
+![Registration](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/registration.png)
+
+![Home](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/home.png)
+
+![Forget Password](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/forgotpassword.png)
+
+![Part Management](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/partmng1.png)
+
+![Add a Part](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/partmng2.png)
+
+![Update Part](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/partmng3.png)
+
+![Search Part](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/partmng4.png)
+
+![Product Management](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/productmng1.png)
+
+![Update Product](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/productmng2.png)
+
+![Add New Product](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/productmgn3.png)
+
+![Supplier Management Module](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/suppliermng.png)
+
+![Add New Supplier](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/suppliermng2.png)
+
+![Update a Supplier](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/suppliermng3.png)
+
+![About](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/aboutus.png)
+
 
