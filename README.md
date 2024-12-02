@@ -19,6 +19,7 @@ The system has multiple user levels with different access privileges, ensuring t
 
 Below is the Entity-Relationship Diagram (ERD) for the TracknSupply system:
 
+![ERD Diagram](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/ERD%20of%20TracknSupply.png)
 
 
 ---
