@@ -167,7 +167,7 @@ You can extend this structure to include more tables based on your requirements.
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source.
 
 ---
 
