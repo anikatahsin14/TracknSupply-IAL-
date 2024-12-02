@@ -30,6 +30,8 @@ Below is the Entity-Relationship Diagram (ERD) for the TracknSupply system:
   - Add, edit, and delete suppliers.
   - Track supplier names, addresses, and prices for purchased parts.
   - Assign parts to specific suppliers.
+
+![Supplier Management Module]([images/supplier-management.png](https://github.com/anikatahsin14/Project-1-IAL-/blob/main/suppliermng.png))
   
 ### 2. **Parts Management**: 
   - Manage internal and purchased parts, including tracking of their names, quantities, and manufacturing costs.
