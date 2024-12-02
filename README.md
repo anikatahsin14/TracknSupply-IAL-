@@ -1,4 +1,4 @@
-# TracknSupply - Inventory and Supplier Management System
+# TracknSupply
 
 **TracknSupply** is a web-based inventory management system developed that produces products using internal parts and parts bought from suppliers. The application allows users to track parts in stock, monitor manufacturing costs, and manage supplier information (including supplier names, addresses, and prices for purchased parts).
 
