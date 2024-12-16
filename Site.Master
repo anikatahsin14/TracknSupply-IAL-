@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="popCrud.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - TracknSupply</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <style>
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #343a40;
+            padding-top: 20px;
+            color: white;
+            z-index: 1;
+        }
+
+        #sidebar a {
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        #sidebar a:hover {
+            background-color: #575d63;
+        }
+
+        #main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        /* Hide sidebar on the login page */
+        <% if (Page.Title == "Login") { %>
+        #sidebar {
+            display: none;
+        }
+        #main-content {
+            margin-left: 0;
+        }
+        <% } %>
+
+        @media (max-width: 768px) {
+            #sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            #main-content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%-- Framework Scripts --%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <!-- Sidebar -->
+        <div id="sidebar" runat="server">
+            <a class="nav-link" runat="server" href="Home.aspx" style="font-size: x-large; text-align: center;">
+                <img src="Images/logo.png" alt="Logo" style="max-width: 150px; height: auto;" />
+            </a>
+            <ul>
+                <li><a class="nav-link" runat="server" href="~/partmng.aspx">Part Management</a></li>
+                <li><a class="nav-link" runat="server" href="~/prodmng.aspx">Product Management</a></li>
+                <li><a class="nav-link" runat="server" href="~/Supplier.aspx">Supplier Management</a></li>
+                <li><a class="nav-link" runat="server" href="~/About.aspx">About</a></li>
+                <li class="ms-auto">
+                    <asp:Button ID="btnLogout" runat="server" Text="Logout" CssClass="btn btn-danger" OnClick="btnLogout_Click" />
+                </li>
+            </ul>
+        </div>
+
+        <div id="main-content">
+            <div class="container body-content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+                <hr />
+                <footer>
+                    <p>&copy; <%: DateTime.Now.Year %> - Reserved by IAL</p>
+                </footer>
+            </div>
+        </div>
+    </form>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+
+</body>
+</html>

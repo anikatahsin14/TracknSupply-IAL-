@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace XMLcrud
+namespace popCrud
 {
     public partial class SiteMaster : MasterPage
     {
@@ -13,5 +13,15 @@ namespace XMLcrud
         {
 
         }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+           
+            Session.Abandon();  
+
+            
+            Response.Redirect("Login.aspx"); 
+        }
+
     }
 }
